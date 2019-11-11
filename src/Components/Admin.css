@@ -1,0 +1,247 @@
+
+.mainBody{
+   height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#loginButton1 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.adminMainDiv{
+
+    min-height: auto;
+    min-width:  400px;
+    padding: 14px 14px 14px 14px; 
+    background-color: white;
+  border : 1px solid black;
+  border-radius: 10px;;
+    margin: auto auto;
+}
+
+
+
+.maindiv{
+
+    background-color:red;
+    text-align: center;
+    padding: 220px;
+    width: 300px;
+    height: 370px;
+    margin: 430px;
+    margin-top: 30px;
+    border: 2px solid;
+    border-color: grey;
+}
+
+#text{
+    /* font-family: 'Roboto',sans-serif; */
+    margin-top: 7px;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+#fundoo{
+    font-size: xx-large;
+    display: flex;
+  
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+#flabel{
+    color:blue;
+}
+
+#ulabel{
+    color:red;
+}
+
+#nlabel{
+    color:#FFC300 ;
+}
+
+#dlabel{
+    color:blue;
+}
+
+#olabel{
+    color:green;
+}
+
+#o2label{
+    color:red;
+}
+
+#login{
+    /* font-style: initial;
+    font-size: x-large; */
+    font-weight: bold;
+    display: flex;
+  
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* align-content: center; */
+  
+   
+}
+
+.textfields{
+
+    width: auto;
+    height: 370px;
+}
+
+/* .emailIdField{
+
+    width: auto;
+   
+} */
+/* .textfields div{
+
+
+} */
+
+
+.maindiv img{
+    width: 400px; height: 200px;
+    align-content: center;
+    background-repeat: no-repeat;
+}
+
+#EmailPass{
+  
+     height: 8px;
+     width: 280px;
+} 
+
+
+#password{
+    width: 250px; height: 20px;
+}
+
+#loginButton{
+    height: 35px;
+    width: 80px;
+    margin-top: -50px;
+    margin-left: 190px;
+}
+
+#registerButton{
+    height: 35px;
+    width: 250px;
+}
+
+#registerText{
+    width: 300px; height: 30px;
+    font-size: xx-small;
+    /* font-variant-caps: all-small-caps; */
+    
+}
+
+#forgetPassword{
+    /* height: 30px; */
+    width: 145px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: x-small;
+    background-color: rgb(155, 140, 206);
+    /* font-family: sans-serif; */
+    margin-right: -127px;
+}
+
+#forgotPass{
+    /* border-radius: 4px; */
+    color: #1a73e8;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* display: inline-block;
+    font-weight: 500;
+    letter-spacing: .25px;
+    background-color: transparent;
+     border: 0; 
+    cursor: pointer;
+    /* font-size: inherit;
+    outline: 0;
+    padding: 0;
+    text-align: left; */ 
+}
+
+#learnMore{
+    color: #1a73e8;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#createAccount{
+    color: #1a73e8;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.close{
+    padding: 10px
+}
+
+#text{
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .maindiv{
+        width: 220px;
+    }
+
+    /* #email{
+        width: 200px; height: 20px;
+    } */
+    
+    #password{
+        width: 200px; height: 20px;
+    }
+
+    #loginButton{
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+
+    .maindiv{
+        width: 200px;
+    }
+
+    #fundoo{
+        margin-left: 45px;
+    }
+
+    /* #email{
+        width: 200px; height: 20px;
+    } */
+    
+    #password{
+        width: 200px; height: 20px;
+    }
+
+    #loginButton{
+        margin-left: 150px;
+    }
+}
+
+
+
+

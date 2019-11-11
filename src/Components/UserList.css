@@ -1,0 +1,41 @@
+.data{
+    /* align-self: flex-end; */
+    height: 10px;
+    margin: 10px;
+    width: auto;
+    padding: 10px;
+    background-color:rgb(202, 205, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#lastnamediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100px;
+
+}
+
+#firstnamediv{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: flex-start;
+}
+
+#emaildiv{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: flex-start;
+}
+
+#servicediv{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: flex-start; 
+}
