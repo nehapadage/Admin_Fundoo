@@ -17,7 +17,7 @@
     min-width:  400px;
     padding: 14px 14px 14px 14px; 
     background-color: white;
-  border : 1px solid black;
+  border : 2px solid grey;
   border-radius: 10px;;
     margin: auto auto;
 }
@@ -47,9 +47,8 @@
 #fundoo{
     font-size: xx-large;
     display: flex;
-  
+    margin-top: 30px;
     flex-direction: row;
-    text-align: center;
     justify-content: center;
 }
 

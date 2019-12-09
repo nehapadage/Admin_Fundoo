@@ -1,10 +1,10 @@
 .data{
     /* align-self: flex-end; */
-    height: 10px;
+    height: 40px;
     margin: 10px;
     width: auto;
     padding: 10px;
-    background-color:rgb(202, 205, 207);
+    background-color:rgb(138, 172, 194);
     display: flex;
     flex-direction: row;
     justify-content: space-between;

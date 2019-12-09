@@ -232,10 +232,7 @@ class Admin extends Component {
                              <div style={{ fontSize: 12, color: "red" }}>
                                 {this.state.passwordError}
                             </div>
-                           {/* <div id="text">Not your computer? Use Guest mode to sign in privately.</div> */}
-                            <div>
-                                {/* <Button id="learnMore">Learn more</Button> */}
-                            </div>
+                           
                         </div>
 
                         <div>

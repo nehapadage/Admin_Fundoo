@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+     flex-direction: column; 
+     justify-content: space-between; 
+}
+
+#ans{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    font-size: xx-large;
+    font-family: auto;
+    font-weight: 700;
+    display: flex;
+    border: 2px solid;
+    border-color: darkgrey;
+}
+
+#message{
+    display: flex;
+    font-family: auto;
+    width: 98%;
+    height: auto;
+    font-size: large;
+    margin: 1%;
+    text-align: justify;
+    /* background-color: cornflowerblue; */
+}
+
+#mainAns{
+    margin: 2%;
+    border: 2px solid;
+      /* margin-top: 5%; */
+}
+
+#Button{
+    display: flex;
+    margin: 2%;
+}

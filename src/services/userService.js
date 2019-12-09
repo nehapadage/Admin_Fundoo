@@ -37,3 +37,47 @@ export function getBasicAdvanceCount() {
 
     // return count;
 }
+
+
+export function getUnApprovedAnswer() {
+    console.log("In getUnApprovedAnswer in service");
+
+    // console.log("admin list before in services--> ", JSON.stringify(getList))
+    return axios.get(url + '/questionAndAnswerNotes/getUnApprovedAnswer', {
+        headers: {
+            'Authorization': token
+        }
+    })
+
+
+}
+
+// POST /questionAndAnswerNotes/approve/{parentId}
+export function Accept(data) {
+    console.log("accept data in services--> ", data)
+    return axios.post(url + '/questionAndAnswerNotes/approve/' + data, JSON.stringify({
+        id: data
+    }), {
+        headers: {
+            'Authorization': token,
+            contentType: 'application/json; charset=utf-8',
+        },
+    })
+}
+
+// POST /questionAndAnswerNotes/reject/{parentId}
+export function Reject(data) {
+    console.log("reject data in services--> ", data)
+    var rej = axios.post(url + '/questionAndAnswerNotes/reject/' + data, JSON.stringify({
+        id: data
+    }), {
+        headers: {
+            'Authorization': token,
+            contentType: 'application/json; charset=utf-8',
+        },
+    })
+    console.log("Returned reject data--------->", rej);
+
+    return rej;
+
+}
